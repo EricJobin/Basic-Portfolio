@@ -2,3 +2,57 @@
     margin:0;
     padding:0;
 }
+.h1{
+    
+
+}
+.h2{
+    
+}
+.h3{
+    
+}
+
+.header{
+    vertical-align: middle;
+    background-color:#fafafa;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.name{
+    vertical-align: top;
+    width:100%;
+    background-color:#3ff3f3;
+    color:#ffffff;
+    padding:15px;
+    border:1px solid #000;
+    
+}
+.links{
+    vertical-align: top;
+    width:80%;
+    border:1px solid #000;
+}
+
+.body{
+    background-color: #aaa;
+}
+
+.textbox{
+    background-color: #fff;
+    width: 960px;
+    margin:auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border:1px solid #000;
+
+}
+
+.pic{
+    margin:30px;
+    border:1px solid #0FF;
+}
+
