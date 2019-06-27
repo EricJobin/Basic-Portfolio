@@ -107,5 +107,6 @@ h3{
     position: fixed;
     bottom: 0;
     width: 100%;
-    border: 5px solid #4aaaa5;
+    border-top: 10px solid #4aaaa5;
+    height: 10%;
 }
