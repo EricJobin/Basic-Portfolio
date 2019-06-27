@@ -2,6 +2,13 @@
     margin:0;
     padding:0;
 }
+/* 
+body{
+    height: 100%;
+    margin: 0;
+} */
+
+
 h1{
     
 
@@ -14,7 +21,7 @@ h3{
 }
 /* headings, including Name and links to About, Portfolio, & Contact */
 
-.header{
+.xheader{
     vertical-align: middle;
     background-color:#fafafa;
     display:flex;
@@ -34,19 +41,23 @@ h3{
     
 }
 .links{
-    vertical-align: middle;
-    width:100%;
-    max-width: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:35%;
+    /* max-width: 80px; */
     border:1px solid #000;
 }
 
 /* Body */
 
-.body{
+.xbody{
     background-color: #aaa;
     display:flex;
     align-content: space-around;
     padding: 20px;
+    height: 100%;
+    margin: 0;
 
 }
 
@@ -72,6 +83,8 @@ h3{
 
 .insidewrapper{
     display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
 
 }
 .pic{
@@ -80,18 +93,19 @@ h3{
     width: 200px;
     height: 100%;
 }
-
+/* 
 .biotext{
     border: 1px solid #111;
     width: 50%;
     margin: 20px;
+    
 
-}
+} */
 
 /* Footer */
-#footer{
+.xfooter{
     position: fixed;
     bottom: 0;
     width: 100%;
-    border: 1px solid #0f0
+    border: 5px solid #4aaaa5;
 }
