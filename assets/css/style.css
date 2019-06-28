@@ -31,8 +31,9 @@ h2{ /* copy font properties to link class to maintain consistency with dividing 
     text-decoration-line: none;
 }
 h3{
-     font-family:"Georgia", Times, Times New Roman, serif; 
+    font-family:"Georgia", Times, Times New Roman, serif; 
     color: #4aaaa5;
+    font-size: 25px;
 }
 /* headings, including Name and links to About, Portfolio, & Contact */
 
@@ -138,14 +139,14 @@ h3{
     height: 200px;
     width: 100%;
 }
-/* 
+
 .biotext{
-    border: 1px solid #111;
-    width: 50%;
-    margin: 20px;
+    /* border: 1px solid #111; */
+    /* width: 50%; */
+    /* margin: 20px; */
     
 
-} */
+}
 
 /* Footer */
 .xfooter{
@@ -155,9 +156,12 @@ h3{
     border-top: 10px solid #4aaaa5;
     height: 10vh;
     background-color: #666666;
-    /* height: 10%; */
-    /* margin-bottom: 0; */
-/* } 
-footer{
-    margin-bottom: 0;
-} */
+    color: #aaa;
+    text-align: center;
+}
+
+.xfooterp{
+    position: relative;
+    top: 5vh;
+    /* border: 3px solid #f00; */
+}
