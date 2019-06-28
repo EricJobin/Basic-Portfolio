@@ -90,10 +90,11 @@ h3{
 /* Body */
 
 .xbody{
-    background-color: #aaa;
-    background-size: cover;
+    /* background-color: #aaa; */
+    /* background-size: cover; */
     /* display:flex; */
     /* flex-direction: row; */
+    background-image: url("../../assets/images/bkgnd.png");
     align-content: space-around;
     padding: 20px;
     /* height: 440px; */
@@ -106,7 +107,7 @@ h3{
 }
 
 .textbox{
-    
+    /* display:none; */
     position: relative;
     top: 10%;
     background-color: #fff;
