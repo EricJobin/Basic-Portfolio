@@ -10,26 +10,39 @@ body{
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin-top:10px;
+    margin-bottom: 15px;
+}
 
 h1{
-    
-
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 30px;
 }
-h2{
-    
+h2{ /* copy font properties to link class to maintain consistency with dividing | */
+    font-family:  'Georgia', Times, Times New Roman, serif;
+    margin-top: 0px;
+    color: #777777;
+    font-size: 20px;
+    text-decoration-line: none;
 }
 h3{
-    
+     font-family:"Georgia", Times, Times New Roman, serif; 
+    color: #4aaaa5;
 }
 /* headings, including Name and links to About, Portfolio, & Contact */
 
 .xheader{
-    vertical-align: middle;
+    vertical-align: center;
     background-color:#fafafa;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 25vh;
+    height: 15vh;
     /* position: fixed;
     top: 0;
     width: 100%;
@@ -38,13 +51,15 @@ h3{
 
 }
 .name{
-    vertical-align: middle;
-    width:10%;
-    background-color:#3ff3f3;
+    vertical-align: none;
+    width:20%;
+    background-color:#4aaaa5;
     color:#ffffff;
     padding:15px;
-    border:1px solid #000;
-    max-width: 480px;
+    /* border:1px solid #000; */
+    /* max-width: 480px; */
+    text-align: center;
+    
     
 }
 .links{
@@ -52,8 +67,18 @@ h3{
     flex-direction: row;
     justify-content: space-around;
     width:35%;
+
+    text-align: center;
+
+    /* Font Properties */
+    font-family:  'Georgia', Times, Times New Roman, serif;
+    margin-top: 55px;
+    color: #777777;
+    font-size: 20px;
+    text-decoration-line: none;
+    
     /* max-width: 80px; */
-    border:1px solid #000;
+    /* border:1px solid #000; */
 }
 
 .container{
@@ -73,7 +98,7 @@ h3{
     /* height: 440px; */
     margin: 0;
     /* flex-flow: column;*/
-    height: 50vh;
+    height: 70vh;
     /* flex-grow: 1; */
    
 
@@ -82,7 +107,7 @@ h3{
 .textbox{
     
     position: relative;
-    top: 0px;
+    top: 10%;
     background-color: #fff;
     width: 960px;
     margin:auto;
@@ -108,10 +133,10 @@ h3{
 
 }
 .pic{
-    margin:0px;
-    border:1px solid #0FF;
-    width: 200px;
-    height: 100%;
+    margin: 10px;
+    /* border:1px solid #0FF; */
+    height: 200px;
+    width: 100%;
 }
 /* 
 .biotext{
@@ -128,7 +153,8 @@ h3{
     bottom: 0;
     width: 100%;
     border-top: 10px solid #4aaaa5;
-    height: 25vh;
+    height: 10vh;
+    background-color: #666666;
     /* height: 10%; */
     /* margin-bottom: 0; */
 /* } 
